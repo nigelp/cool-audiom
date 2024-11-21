@@ -1,0 +1,30 @@
+{
+  "name": "cool-audiom",
+  "version": "1.0.0",
+  "productName": "Cool AudioM",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "pack": "electron-builder --dir"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.coolaudiom.app",
+    "win": {
+      "target": ["nsis"],
+      "icon": "build/icon.ico"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  }
+}

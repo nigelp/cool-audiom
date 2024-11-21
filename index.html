@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cool AudioM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cool AudioM</h1>
+        
+        <div class="file-section">
+            <div class="file-input">
+                <h2>Target Track</h2>
+                <div id="targetTracks">
+                    <div class="target-track">
+                        <button class="selectTarget">Select Target File</button>
+                        <p class="targetPath">No file selected</p>
+                    </div>
+                </div>
+                <button id="addTrackButton">+ Add Another Track</button>
+            </div>
+            
+            <div class="file-input">
+                <h2>Reference Track</h2>
+                <button id="selectReference">Select Reference File</button>
+                <p id="referencePath">No file selected</p>
+            </div>
+        </div>
+
+        <div class="process-section">
+            <button id="processButton" disabled>Process</button>
+            <div id="progress" class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <p id="status">Ready</p>
+            <p id="resultLink" style="display: none;">Result: <a href="#" id="downloadLink">result.wav</a> | <a href="#" id="folderLink">Open Folder</a></p>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
