@@ -21,7 +21,7 @@ A desktop application for batch audio mastering using reference tracks. Availabl
 
 ## Installation
 
-Download the latest installer from the Releases section and run `Cool AudioM Setup.exe`. The app will then use the installed maturing code to do the mastering of the track/s.
+Download the latest installer from the Releases section and run `Cool AudioM Setup.exe`. The app will then use the installed matchering code to do the mastering of the track/s.
 
 ## Development Setup
 
