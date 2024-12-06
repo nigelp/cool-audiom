@@ -43,7 +43,7 @@ npm run build
 ```
 ## Cool AudioM Python
 
-This is a new standalone version that includes all necessary dependencies in one zip file. Just download the zip, extract it to your computer and click on the .exe file to start mastering your track/s. Unfortunately because of the Python UI limitations the standalone app is not as pretty as the Electron app, but they all have the same functionality and results. And of course the standalone version is easier to get going.
+This is a new standalone version that includes all necessary dependencies in one zip file. Just download the zip, extract it to your Windows computer and click on the .exe file to start mastering your track/s. Unfortunately because of the Python UI limitations the standalone app is not as pretty as the Electron app, but they all have the same functionality and results. And of course the standalone version is easier to get going.
 
 ### Installation and Usage:
 
